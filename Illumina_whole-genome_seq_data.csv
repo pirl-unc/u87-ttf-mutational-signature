@@ -1,0 +1,4 @@
+sample,/pine/scr/k/w/kwamek/AlexRotation/U87_Illumina_whole-genome_sequencing_data,/pine/scr/k/w/kwamek/AlexRotation/U87_Illumina_whole-genome_sequencing_data,strandedness
+sample_1,U87_1-GDNA-WGS_CGTACGTT-AGGATTAG_S2_L001_R1_001.fastq.gz,U87_1-GDNA-WGS_CGTACGTT-AGGATTAG_S2_L001_R2_001.fastq.gz,forward
+sample_2,U87_2-GDNA-WGS_GGTAATCG-GAACGTCG_S5_L001_R1_001.fastq.gz,U87_2-GDNA-WGS_GGTAATCG-GAACGTCG_S5_L001_R2_001.fastq.gz,forward
+sample_3,U87_3-GDNA-WGS_ACCAACAT-GACGGTCC_S8_L001_R1_001.fastq.gz,U87_3-GDNA-WGS_ACCAACAT-GACGGTCC_S8_L001_R2_001.fastq.gz,forward
