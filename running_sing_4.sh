@@ -7,12 +7,12 @@
 #SBATCH --cpus-per-task 16
 #SBATCH --time 7-
 
-#tsvfile = "Illumina_whole-genome_seq_data.tsv"
+tsvfile=Illumina_whole-genome_seq_data.tsv
 
 module load nextflow
 
 echo "Hi"
 
-nextflow run nf-core/sarek --input Illumina_whole-genome_seq_data.tsv -profile singularity -bg
+nextflow run nf-core/sarek --input $tsvfile -profile singularity -bg
 
 echo "Bye"
