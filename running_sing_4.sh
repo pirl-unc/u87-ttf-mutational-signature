@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#SBATCH -p general
-#SBATCH -N 1
-#SBATCH --mem=80g
-#SBATCH -n 1
-#SBATCH -c 12
-#SBATCH -t 7-
+#SBATCH --partition general
+#SBATCH --nodes 1
+#SBATCH --ntasks 1
+#SBATCH --mem=128g
+#SBATCH --cpus-per-task 16
+#SBATCH --time 7-
 
 #tsvfile = "Illumina_whole-genome_seq_data.tsv"
 
