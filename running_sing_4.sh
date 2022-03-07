@@ -7,6 +7,8 @@
 #SBATCH --cpus-per-task 16
 #SBATCH --time 7-
 
+set -e
+
 tsvfile=Illumina_whole-genome_seq_data.tsv
 
 module load nextflow
