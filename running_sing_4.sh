@@ -15,6 +15,6 @@ module load nextflow
 
 echo "Hi"
 
-nextflow run nf-core/sarek --input $tsvfile -profile singularity -bg
+nextflow run nf-core/sarek --input $tsvfile -profile singularity 
 
 echo "Bye"
