@@ -9,7 +9,7 @@ CPUS=8
 GENOME=./reference/GRCh38_full_analysis_set_plus_decoy_hla.fa
 
 MANTA_ANALYSIS_PATH=./mantaAnalysis
-STRELKA_ANALYSIS_PATH=/outputs/strelkaAnalysis
+STRELKA_ANALYSIS_PATH=./strelkaAnalysis
 
 # pull the docker container
 singularity pull docker://quay.io/wtsicgp/strelka2-manta
